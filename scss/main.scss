@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -54,10 +55,13 @@ header {
 main {
     padding: 4rem;
     height: 100%;
+
     .icons {
         margin-top: 1rem;
+
         a {
             padding: 0.4rem;
+
             &:hover {
                 color: $secondary-color;
                 @include easeOut();
@@ -67,6 +71,7 @@ main {
 
     &#home {
         overflow: hidden;
+
         h1 {
             margin-top: 20vh;
         }
