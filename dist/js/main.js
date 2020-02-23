@@ -35,3 +35,9 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+function getCurrentYear() {
+    let year = document.querySelector('.current-year');
+    let currentYear = new Date().getFullYear();
+    year.innerHTML = currentYear;
+}
