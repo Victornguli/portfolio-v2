@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Improved personal developer portfolio webiste",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victornguli/portfolio-v2.git"
+  },
+  "keywords": [
+    "developer",
+    "portfolio"
+  ],
+  "author": "Victor Nguli Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victornguli/portfolio-v2/issues"
+  },
+  "homepage": "https://github.com/Victornguli/portfolio-v2#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
